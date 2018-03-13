@@ -8,26 +8,48 @@
 
 #include "Person.hpp"
 
-using namespace std;
 
 class Person{
-public:
-	Person (std::string nm, std::string lnm){
-		name=nm;
-		lastName=lnm;
-	}
-	Person(){}
 
-	std::string GetLastName(){
-		return lastName;
+private:
+	std::string _name,_lastName;
+	short int _age;
+	float _weight,_height;
+
+public:
+	Person(){}	//Default constructor
+
+	Person (std::string name, std::string lastName){	//Two var constructor
+		_name=name;
+		_lastName=lastName;
 	}
+
+	Person (std::string name, std::string lastName,short int age){	//Three var constructor
+		Person::Person (name,lastName);
+		_age=age;
+	}
+
+		//Destructor
 	~Person(){
 		cout<<"Object is being deleted"<<endl;
 	}
-private:
-	string name,lastName;
-	int age;
-	float weight,height;
 
+	//Getters
+	const std::string GetLastName(){
+		return _lastName;
+	}
+	const std::string GetName(){
+		return _name;
+	}
+	const float getWeight(){
+		return _weight;
+	}const float getHeight(){
+		return _height;
+	}
+	//===========
+
+	void SayHello(){
+		std::cout<<"Hello!"<<std::endl;
+	}
 
 };
