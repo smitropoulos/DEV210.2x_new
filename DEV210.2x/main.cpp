@@ -1,17 +1,17 @@
-//
-//  main.cpp
-//  DEV210.2x
-//
-//  Created by Stefanos Mitropoulos on 13/03/2018.
-//  Copyright © 2018 Stefanos Mitropoulos. All rights reserved.
-//
 
 #include <iostream>
+#include "Person.cpp"
+
 
 int main(int argc, const char * argv[]) {
-	// insert code here...
-	std::cout << "Hello, World!\n"<<std::endl;
 
+
+
+	Person *pOne = new Person("Gerry", "O\'Brien");
+	std::cout << pOne->GetLastName() << endl;
+
+	delete pOne;
 
 	return 0;
 }
+
