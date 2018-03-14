@@ -12,8 +12,14 @@ Course::Course(std::string name){
 	_name=name;
 }
 
+//setters
 void Course::setName(std::string name){
 	_name=name;
+}
+
+//getters
+std::string Course::getName(){
+	return _name;
 }
 
 void Course::addStudent(Student st){
@@ -23,5 +29,9 @@ void Course::addStudent(Student st){
 	else{
 		std::cout<<"The course is full"<<std::endl;
 	}
+}
+
+void Course::setTeacher(Teacher teacher){
+	t1=teacher;
 }
 

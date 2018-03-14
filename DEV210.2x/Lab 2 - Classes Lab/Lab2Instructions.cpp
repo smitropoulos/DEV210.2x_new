@@ -10,6 +10,7 @@
 #include "Student.hpp"
 #include "Teacher.hpp"
 #include "Course.hpp"
+#include "Lab2Instructions.h"
 
 int lab2(){
 
@@ -19,5 +20,15 @@ int lab2(){
 
 	Course course1("Intermediate C++");
 	course1.addStudent(student1);
+	course1.addStudent(student2);
+	course1.addStudent(student3);
+
+	Teacher teacher1("Marry","Jones",42,"Jemming's 32 street","Atlanta","0023 3424401");
+
+	course1.setTeacher(teacher1);
+
+	std::cout<<course1.getName()<<std::endl;
+	teacher1.gradeStudent();
+	teacher1.sitInClass();
 	return 0;
 }

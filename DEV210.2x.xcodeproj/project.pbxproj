@@ -45,6 +45,7 @@
 		7DBFE98F205988AB0061C87C /* Course.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Course.cpp; sourceTree = "<group>"; };
 		7DBFE990205988AB0061C87C /* Course.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Course.hpp; sourceTree = "<group>"; };
 		7DBFE992205998F80061C87C /* Lab2Instructions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Lab2Instructions.cpp; sourceTree = "<group>"; };
+		7DBFE9942059B61F0061C87C /* Lab2Instructions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lab2Instructions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 				7DBFE98F205988AB0061C87C /* Course.cpp */,
 				7DBFE990205988AB0061C87C /* Course.hpp */,
 				7DBFE992205998F80061C87C /* Lab2Instructions.cpp */,
+				7DBFE9942059B61F0061C87C /* Lab2Instructions.h */,
 			);
 			path = "Lab 2 - Classes Lab";
 			sourceTree = "<group>";

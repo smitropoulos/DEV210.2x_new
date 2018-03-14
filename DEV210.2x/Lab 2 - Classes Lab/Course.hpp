@@ -18,7 +18,7 @@ class Course{
 private:
 	std::string _name;
 	Student students[3];
-	Teacher *t1=new Teacher();
+	Teacher t1;
 	short int numberOfStudents=3;
 
 public:
@@ -29,7 +29,7 @@ public:
 	void setName(std::string name);
 	void addStudent(Student st);
 	void setTeacher(Teacher teacher);
-
+//getter
 	std::string getName();
 	Student getStudents();
 	Teacher getTeacher();
