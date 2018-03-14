@@ -1,6 +1,6 @@
 
 #include <iostream>
-#include "Person.cpp"
+#include "Person.hpp"
 
 
 int main(int argc, const char * argv[]) {

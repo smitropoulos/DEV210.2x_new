@@ -8,48 +8,38 @@
 
 #include "Person.hpp"
 
+Person::Person(){}	//Default constructor
 
-class Person{
-
-private:
-	std::string _name,_lastName;
-	short int _age;
-	float _weight,_height;
-
-public:
-	Person(){}	//Default constructor
-
-	Person (std::string name, std::string lastName){	//Two var constructor
+Person::Person (std::string name, std::string lastName){	//Two var constructor
 		_name=name;
 		_lastName=lastName;
 	}
 
-	Person (std::string name, std::string lastName,short int age){	//Three var constructor
+Person::Person (std::string name, std::string lastName,short int age){	//Three var constructor
 		Person::Person (name,lastName);
 		_age=age;
 	}
 
 		//Destructor
-	~Person(){
+Person::~Person(){
 		cout<<"Object is being deleted"<<endl;
 	}
 
 	//Getters
-	const std::string GetLastName(){
+	const std::string Person::GetLastName(){
 		return _lastName;
 	}
-	const std::string GetName(){
+	const std::string Person::GetName(){
 		return _name;
 	}
-	const float getWeight(){
+	const float Person::getWeight(){
 		return _weight;
-	}const float getHeight(){
+	}const float Person::getHeight(){
 		return _height;
 	}
 	//===========
 
-	void SayHello(){
+	void Person::SayHello(){
 		std::cout<<"Hello!"<<std::endl;
 	}
 
-};
