@@ -10,5 +10,30 @@
 #define Course_hpp
 
 #include <stdio.h>
+#include "Student.hpp"
+#include "Teacher.hpp"
+
+
+class Course{
+private:
+	std::string _name;
+	Student students[3];
+	Teacher *t1=new Teacher();
+	short int numberOfStudents=3;
+
+public:
+	Course();
+	Course(std::string name);
+
+//setter
+	void setName(std::string name);
+	void addStudent(Student st);
+	void setTeacher(Teacher teacher);
+
+	std::string getName();
+	Student getStudents();
+	Teacher getTeacher();
+
+};
 
 #endif /* Course_hpp */

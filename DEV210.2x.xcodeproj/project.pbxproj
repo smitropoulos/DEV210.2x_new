@@ -14,6 +14,7 @@
 		7DBFE98B2059888E0061C87C /* Teacher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DBFE9892059888E0061C87C /* Teacher.cpp */; };
 		7DBFE98E205988A10061C87C /* Student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DBFE98C205988A10061C87C /* Student.cpp */; };
 		7DBFE991205988AB0061C87C /* Course.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DBFE98F205988AB0061C87C /* Course.cpp */; };
+		7DBFE993205998F80061C87C /* Lab2Instructions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DBFE992205998F80061C87C /* Lab2Instructions.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		7DBFE98D205988A10061C87C /* Student.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Student.hpp; sourceTree = "<group>"; };
 		7DBFE98F205988AB0061C87C /* Course.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Course.cpp; sourceTree = "<group>"; };
 		7DBFE990205988AB0061C87C /* Course.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Course.hpp; sourceTree = "<group>"; };
+		7DBFE992205998F80061C87C /* Lab2Instructions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Lab2Instructions.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				7DBFE98A2059888E0061C87C /* Teacher.hpp */,
 				7DBFE98F205988AB0061C87C /* Course.cpp */,
 				7DBFE990205988AB0061C87C /* Course.hpp */,
+				7DBFE992205998F80061C87C /* Lab2Instructions.cpp */,
 			);
 			path = "Lab 2 - Classes Lab";
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				7DBFE98B2059888E0061C87C /* Teacher.cpp in Sources */,
 				7D9FE0312057F36700AEB721 /* Person.cpp in Sources */,
 				7D18AD902057EBFA001F279F /* main.cpp in Sources */,
+				7DBFE993205998F80061C87C /* Lab2Instructions.cpp in Sources */,
 				7DBFE98E205988A10061C87C /* Student.cpp in Sources */,
 				7DBFE991205988AB0061C87C /* Course.cpp in Sources */,
 				7D7514A82059280900E4710F /* Dog.cpp in Sources */,
