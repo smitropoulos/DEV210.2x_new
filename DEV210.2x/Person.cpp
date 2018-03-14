@@ -5,7 +5,6 @@
 //  Created by Stefanos Mitropoulos on 13/03/2018.
 //  Copyright © 2018 Stefanos Mitropoulos. All rights reserved.
 //
-
 #include "Person.hpp"
 
 Person::Person(){}    //Default constructor
@@ -34,9 +33,36 @@ Person::~Person(){
     }
     const float Person::getWeight(){
         return _weight;
-    }const float Person::getHeight(){
+    }
+	const float Person::getHeight(){
         return _height;
     }
+	const short int Person::getAge(){
+		return _age;
+	}
+	
+	//Setters
+	void Person::setFirstName(std::string fName){
+		this->_name=fName;
+	}
+	void Person::setLastName(std::string lName){
+		this->_lastName=lName;
+	}
+	void Person::setWeight(float weight){
+		this->_weight=weight;
+	}
+	void Person::setHeight(float height){
+		this->_height=height;
+	}
+	void Person::setAge(float age){
+		if (age<=0)
+			std::cout<<"This is not a valid age. Please try again."<<std::endl;
+		else
+		this->_age=age;
+	}
+
+
+
     //===========
 
     void Person::SayHello(){

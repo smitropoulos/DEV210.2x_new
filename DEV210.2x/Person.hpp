@@ -5,7 +5,7 @@
 //  Created by Stefanos Mitropoulos on 13/03/2018.
 //  Copyright © 2018 Stefanos Mitropoulos. All rights reserved.
 //
-
+#pragma once
 #ifndef Person_hpp
 #define Person_hpp
 
@@ -18,8 +18,9 @@ class Person{
 
 private:
     std::string _name,_lastName;
-    short int _age;
-    float _weight,_height;
+    short int _age=0;
+	float _weight=0;
+	float _height=0;
 
 public:
 
@@ -36,13 +37,15 @@ public:
     const std::string GetName();
     const float getWeight();
     const float getHeight();
+	const short int getAge();
+
 
         //Setters
     void setFirstName(std::string fName);
     void setLastName(std::string lName);
-    void  setWeight(float weight);
+    void setWeight(float weight);
     void setHeight(float height);
-
+	void setAge(float age);
         //===========
 
     void SayHello();
