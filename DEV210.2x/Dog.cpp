@@ -11,13 +11,14 @@
 
 Dog::Dog(){}    //Default constructor
 
-Dog::Dog (std::string name, std::string lastName){    //Two var constructor
+Dog::Dog (std::string name){    //Two var constructor
 	_name=name;
-	_lastName=lastName;
+	
 }
 
 Dog::Dog (std::string name, std::string lastName,short int age){    //Three var constructor
-	Dog::Dog (name,lastName);
+	_name=name;
+	_lastName=lastName;
 	_age=age;
 }
 
@@ -41,7 +42,7 @@ const float Dog::getWeight(){
 	//===========
 
 void Dog::SayHello(){
-	std::cout<<"Hello!"<<std::endl;
+	std::cout<<"Woof!"<<std::endl;
 }
 
 

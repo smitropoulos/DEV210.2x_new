@@ -23,7 +23,7 @@ private:
 public:
 
 	Dog();    //Default constructor
-	Dog (std::string name, std::string lastName);    //Two var constructor
+	Dog (std::string name);    //1 var constructor
 	Dog (std::string name, std::string lastName,short int age);    //Three var constructor
 
 

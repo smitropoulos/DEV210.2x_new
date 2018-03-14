@@ -13,8 +13,14 @@
 int ClassScope(){
 
 
-	Person *pr = new Person("John","Wick");
-	std::cout<<"Person1's first name is "<<pr->GetName()<<std::endl;
+	Person *p = new Person("John","Wick");
+	std::cout<<"Person1's first name is "<< p->GetName() <<std::endl;
+	p->SayHello();
+
+
+	Dog *d = new Dog("Fred");
+	std::cout<<"Dog's first name is "<< d->GetName() <<std::endl;
+	d->SayHello();
 
 
 	return 0;
