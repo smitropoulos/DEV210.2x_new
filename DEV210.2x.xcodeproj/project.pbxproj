@@ -11,6 +11,9 @@
 		7D7514A5205927C800E4710F /* ClassScope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D7514A3205927C800E4710F /* ClassScope.cpp */; };
 		7D7514A82059280900E4710F /* Dog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D7514A62059280900E4710F /* Dog.cpp */; };
 		7D9FE0312057F36700AEB721 /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D9FE0302057F36700AEB721 /* Person.cpp */; };
+		7DBFE98B2059888E0061C87C /* Teacher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DBFE9892059888E0061C87C /* Teacher.cpp */; };
+		7DBFE98E205988A10061C87C /* Student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DBFE98C205988A10061C87C /* Student.cpp */; };
+		7DBFE991205988AB0061C87C /* Course.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DBFE98F205988AB0061C87C /* Course.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +37,12 @@
 		7D7514A72059280900E4710F /* Dog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Dog.hpp; sourceTree = "<group>"; };
 		7D9FE02F2057F36700AEB721 /* Person.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Person.hpp; sourceTree = "<group>"; };
 		7D9FE0302057F36700AEB721 /* Person.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
+		7DBFE9892059888E0061C87C /* Teacher.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Teacher.cpp; sourceTree = "<group>"; };
+		7DBFE98A2059888E0061C87C /* Teacher.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Teacher.hpp; sourceTree = "<group>"; };
+		7DBFE98C205988A10061C87C /* Student.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Student.cpp; sourceTree = "<group>"; };
+		7DBFE98D205988A10061C87C /* Student.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Student.hpp; sourceTree = "<group>"; };
+		7DBFE98F205988AB0061C87C /* Course.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Course.cpp; sourceTree = "<group>"; };
+		7DBFE990205988AB0061C87C /* Course.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Course.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +82,22 @@
 				7D18AD8F2057EBFA001F279F /* main.cpp */,
 				7D9FE0302057F36700AEB721 /* Person.cpp */,
 				7D9FE02F2057F36700AEB721 /* Person.hpp */,
+				7DBFE988205988510061C87C /* Lab 2 - Classes Lab */,
 			);
 			path = DEV210.2x;
+			sourceTree = "<group>";
+		};
+		7DBFE988205988510061C87C /* Lab 2 - Classes Lab */ = {
+			isa = PBXGroup;
+			children = (
+				7DBFE9892059888E0061C87C /* Teacher.cpp */,
+				7DBFE98C205988A10061C87C /* Student.cpp */,
+				7DBFE98D205988A10061C87C /* Student.hpp */,
+				7DBFE98A2059888E0061C87C /* Teacher.hpp */,
+				7DBFE98F205988AB0061C87C /* Course.cpp */,
+				7DBFE990205988AB0061C87C /* Course.hpp */,
+			);
+			path = "Lab 2 - Classes Lab";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,8 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DBFE98B2059888E0061C87C /* Teacher.cpp in Sources */,
 				7D9FE0312057F36700AEB721 /* Person.cpp in Sources */,
 				7D18AD902057EBFA001F279F /* main.cpp in Sources */,
+				7DBFE98E205988A10061C87C /* Student.cpp in Sources */,
+				7DBFE991205988AB0061C87C /* Course.cpp in Sources */,
 				7D7514A82059280900E4710F /* Dog.cpp in Sources */,
 				7D7514A5205927C800E4710F /* ClassScope.cpp in Sources */,
 			);
