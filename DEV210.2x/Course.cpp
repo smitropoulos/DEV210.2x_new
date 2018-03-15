@@ -7,7 +7,7 @@
 //
 
 #include "Course.hpp"
-
+/*
 Course::Course(std::string name){
 	_name=name;
 }
@@ -35,3 +35,4 @@ void Course::setTeacher(Teacher teacher){
 	t1=teacher;
 }
 
+*/

@@ -13,7 +13,7 @@
 #include "Student.hpp"
 #include "Teacher.hpp"
 
-
+/*
 class Course{
 private:
 	std::string _name;
@@ -35,5 +35,5 @@ public:
 	Teacher getTeacher();
 
 };
-
+*/
 #endif /* Course_hpp */

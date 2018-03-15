@@ -15,7 +15,8 @@ Person::Person (std::string name, std::string lastName){    //Two var constructo
 }
 
 Person::Person (std::string name, std::string lastName,short int age){    //Three var constructor
-	Person::Person (name,lastName);
+	_name=name;
+	_lastName=lastName;
 	_age=age;
 }
 
@@ -67,5 +68,9 @@ void Person::setAge(float age){
 
 void Person::SayHello(){
 	std::cout<<"Hello!"<<std::endl;
+
 }
 
+void Person::outputAge(){
+	std::cout<<"I am "<<_age<<"years old!"<<std::endl;
+}

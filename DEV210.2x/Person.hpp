@@ -16,12 +16,18 @@ using namespace std;
 
 class Person{
 
+private:
+
+	short int _age=0;
+
 protected:
 
-	std::string _name,_lastName;
+	std::string _name="";
+	std::string _lastName="";
+	std::string race="";
 	float _weight=0;
 	float _height=0;
-	short int _age=0;
+	std::string _phone="";
 
 public:
 
@@ -29,9 +35,8 @@ public:
 	Person (std::string name, std::string lastName);    //Two var constructor
 	Person (std::string name, std::string lastName,short int age);    //Three var constructor
 
-
 		//Destructor
-	~Person();
+	virtual ~Person();
 
 		//Getters
 	const std::string GetLastName();
@@ -51,7 +56,8 @@ public:
 		//Methods
 
 	void SayHello();
-
+	virtual void outputIdentity()=0;	//Pure virtual function
+	virtual void outputAge();
 };
 
 

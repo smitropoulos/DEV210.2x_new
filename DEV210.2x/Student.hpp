@@ -11,56 +11,18 @@
 
 #include <stdio.h>
 #include <iostream>
-/*
-class Student {
-private:
-	std::string _firstName="";
-	std::string _lastName="";
-	short int _age=0;
-	std::string _address="";
-	std::string _city="";
-	std::string _phone="";
-
-public:
-	Student();
-	Student(std::string firstName,std::string lastName,short int age,std::string address,std::string city, std::string phone);
-	~Student();
-
-		//Getters
-	std::string getFirstName();
-	std::string getLastName();
-	std::string getAddress();
-	std::string getCity();
-	std::string getPhone();
-	short int getAge();
-
-		//Setters
-	void setFirstName(std::string name);
-	void setLastName(std::string lname);
-	void setAddress(std::string address);
-	void setCity(std::string city);
-	void setPhone(std::string phone);
-	void getAge(short int age);
-
-		//Methods
-	void sitInClass();
-
-
-
-};
-*/
 #include "Person.hpp"
 
-class Student :
-public Person
+class Student : public Person
 {
 public:
-	Student();
-	~Student();
+	Student();    //Default constructor
+	Student (std::string name, std::string lastName);    //Two var constructor
+	Student (std::string name, std::string lastName,short int age);    //Three var constructor
 
-	void setAge(int);
-	int getAge();
-	void SayHello();
+	virtual void outputIdentity();
+	virtual void outputAge();
+
 };
 
 #endif /* Student_hpp */

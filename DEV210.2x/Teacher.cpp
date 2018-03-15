@@ -8,69 +8,27 @@
 
 #include "Teacher.hpp"
 
-Teacher::Teacher(){}
-Teacher::Teacher(std::string firstName,std::string lastName,short int age,std::string address,std::string city, std::string phone){
+Teacher::Teacher(){}    //Default constructor
 
-	_firstName=firstName;
+Teacher::Teacher (std::string name, std::string lastName){    //Two var constructor
+	_name=name;
 	_lastName=lastName;
-	_age=age;
-	_city=city;
-	_address=address;
-	_phone=phone;
-
-
 }
 
-Teacher::~Teacher(){
+Teacher::Teacher (std::string name, std::string lastName,short int age){    //Three var constructor
+	_name=name;
+	_lastName=lastName;
+	setAge(age);		//Since Person::_age is private, we need a setter to alter it.
 
 }
 
-	//Getters
-std::string Teacher::getFirstName(){
-	return _firstName;
-}
-std::string Teacher::getLastName(){
-	return _lastName;
-}
-std::string Teacher::getAddress(){
-	return _address;
-}
-std::string Teacher::getCity(){
-	return _city;
-}
-std::string Teacher::getPhone(){
-	return _phone;
-}
-short int Teacher::getAge(){
-	return _age;
+
+void Teacher::outputIdentity(){
+	std::cout<<"I am a Teacher";
+
 }
 
-	//Setters
-void Teacher::setFirstName(std::string name){
-	_firstName=name;
+void Teacher::outputAge(){
+	outputIdentity();
+	Person::outputAge();
 }
-void Teacher::setLastName(std::string lname){
-	_lastName=lname;
-}
-void Teacher::setAddress(std::string address){
-	_address=address;
-}
-void Teacher::setCity(std::string city){
-	_city=city;
-}
-void Teacher::setPhone(std::string phone){
-	_phone=phone;
-}
-void Teacher::getAge(short int age){
-	_age=age;
-}
-
-	//Functions
-void Teacher::gradeStudent(){
-	std::cout<<"Student Graded!"<<std::endl;
-}
-
-void Teacher::sitInClass(){
-	std::cout<<"Sitting at front of class"<<std::endl;
-}
-

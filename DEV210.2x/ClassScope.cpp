@@ -8,7 +8,7 @@
 #include "ClassScope.hpp"
 #include "Person.hpp"
 #include "Dog.hpp"
-
+/*
 int ClassScope(){
 
 
@@ -26,3 +26,4 @@ int ClassScope(){
 }
 
 
+*/

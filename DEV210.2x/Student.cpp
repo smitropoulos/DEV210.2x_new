@@ -8,98 +8,26 @@
 
 #include "Student.hpp"
 
-/*
-Student::Student(){}
-Student::Student(std::string firstName,std::string lastName,short int age,std::string address,std::string city, std::string phone){
+Student::Student(){}    //Default constructor
 
-	_firstName=firstName;
+Student::Student (std::string name, std::string lastName){    //Two var constructor
+	_name=name;
 	_lastName=lastName;
-	_age=age;
-	_city=city;
-	_address=address;
-	_phone=phone;
-
-
 }
 
-Student::~Student(){
+Student::Student (std::string name, std::string lastName,short int age){    //Three var constructor
+	_name=name;
+	_lastName=lastName;
+	setAge(age);	//Since Person::_age is private, we need a setter to alter it.
 
 }
 
-	//Getters
-std::string Student::getFirstName(){
-	return _firstName;
-}
-std::string Student::getLastName(){
-	return _lastName;
-}
-std::string Student::getAddress(){
-	return _address;
-}
-std::string Student::getCity(){
-	return _city;
-}
-std::string Student::getPhone(){
-	return _phone;
-}
-short int Student::getAge(){
-	return _age;
+
+void Student::outputIdentity(){
+	std::cout<<"I am a Student!";
 }
 
-	//Setters
-void Student::setFirstName(std::string name){
-	_firstName=name;
-}
-void Student::setLastName(std::string lname){
-	_lastName=lname;
-}
-void Student::setAddress(std::string address){
-	_address=address;
-}
-void Student::setCity(std::string city){
-	_city=city;
-}
-void Student::setPhone(std::string phone){
-	_phone=phone;
-}
-void Student::getAge(short int age){
-	_age=age;
-}
-
-void Student::sitInClass(){
-	std::cout<<"Sitting in main theater"<<std::endl;
-}
-*/
-
-#include "Student.hpp"
-
-Student::Student()
-{
-}
-
-
-Student::~Student()
-{
-}
-
-void Student::setAge(int age)
-{
-	if (age < 5)
-		{
-		std::cout << "Student age needs to at least 5 years old." << std::endl;
-		}
-	else
-		{
-		this->_age = age;
-		}
-}
-
-int Student::getAge()
-{
-	return this->_age;
-}
-
-void Student::SayHello()
-{
-	std::cout << "Hey, how's it goin'?" << std::endl;
+void Student::outputAge(){
+	this->outputIdentity();
+	Person::outputAge();
 }
