@@ -6,8 +6,13 @@
 //  Copyright © 2018 Stefanos Mitropoulos. All rights reserved.
 //
 
-#include "Course.hpp"
+
+	//Obsolete File.
+
+
 /*
+#include "Course.hpp"
+
 Course::Course(std::string name){
 	_name=name;
 }

@@ -13,7 +13,7 @@
 #include <iostream>
 #include "Person.hpp"
 
-class Student : public Person
+class Student : public Person	//Subclass of Person;
 {
 public:
 	Student();    //Default constructor

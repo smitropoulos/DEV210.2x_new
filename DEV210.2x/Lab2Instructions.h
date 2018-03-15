@@ -6,9 +6,13 @@
 //  Copyright © 2018 Stefanos Mitropoulos. All rights reserved.
 //
 
+	//Obsolete File.
+/*
+
 #ifndef Lab2Instructions_h
 #define Lab2Instructions_h
 
 int lab2();
 
 #endif /* Lab2Instructions_h */
+*/

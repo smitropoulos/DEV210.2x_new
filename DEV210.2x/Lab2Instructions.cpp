@@ -6,12 +6,17 @@
 //  Copyright © 2018 Stefanos Mitropoulos. All rights reserved.
 //
 
+
+//Obsolete File.
+
+
+/*
 #include <stdio.h>
 #include "Student.hpp"
 #include "Teacher.hpp"
 #include "Course.hpp"
 #include "Lab2Instructions.h"
-/*
+
 int lab2(){
 
 	Student student1("John","Hardy",22,"Lemming's 32 street","Atlanta","0023 3424401");

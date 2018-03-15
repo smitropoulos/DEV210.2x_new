@@ -14,7 +14,7 @@
 #include <iostream>
 #include "Person.hpp"
 
-class Teacher : public Person
+class Teacher : public Person	//Subclass of Person;
 {
 public:
 	Teacher();    //Default constructor

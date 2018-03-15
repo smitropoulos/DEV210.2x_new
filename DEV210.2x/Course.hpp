@@ -6,6 +6,11 @@
 //  Copyright © 2018 Stefanos Mitropoulos. All rights reserved.
 //
 
+
+
+	//Obsolete File.
+
+/*
 #ifndef Course_hpp
 #define Course_hpp
 
@@ -13,7 +18,7 @@
 #include "Student.hpp"
 #include "Teacher.hpp"
 
-/*
+
 class Course{
 private:
 	std::string _name;
