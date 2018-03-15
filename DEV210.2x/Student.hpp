@@ -11,7 +11,7 @@
 
 #include <stdio.h>
 #include <iostream>
-
+/*
 class Student {
 private:
 	std::string _firstName="";
@@ -48,6 +48,19 @@ public:
 
 
 };
+*/
+#include "Person.hpp"
 
+class Student :
+public Person
+{
+public:
+	Student();
+	~Student();
+
+	void setAge(int);
+	int getAge();
+	void SayHello();
+};
 
 #endif /* Student_hpp */

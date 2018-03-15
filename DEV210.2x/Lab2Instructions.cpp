@@ -11,7 +11,7 @@
 #include "Teacher.hpp"
 #include "Course.hpp"
 #include "Lab2Instructions.h"
-
+/*
 int lab2(){
 
 	Student student1("John","Hardy",22,"Lemming's 32 street","Atlanta","0023 3424401");
@@ -32,3 +32,4 @@ int lab2(){
 	teacher1.sitInClass();
 	return 0;
 }
+*/

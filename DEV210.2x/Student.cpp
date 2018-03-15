@@ -8,6 +8,7 @@
 
 #include "Student.hpp"
 
+/*
 Student::Student(){}
 Student::Student(std::string firstName,std::string lastName,short int age,std::string address,std::string city, std::string phone){
 
@@ -67,4 +68,38 @@ void Student::getAge(short int age){
 
 void Student::sitInClass(){
 	std::cout<<"Sitting in main theater"<<std::endl;
+}
+*/
+
+#include "Student.hpp"
+
+Student::Student()
+{
+}
+
+
+Student::~Student()
+{
+}
+
+void Student::setAge(int age)
+{
+	if (age < 5)
+		{
+		std::cout << "Student age needs to at least 5 years old." << std::endl;
+		}
+	else
+		{
+		this->_age = age;
+		}
+}
+
+int Student::getAge()
+{
+	return this->_age;
+}
+
+void Student::SayHello()
+{
+	std::cout << "Hey, how's it goin'?" << std::endl;
 }

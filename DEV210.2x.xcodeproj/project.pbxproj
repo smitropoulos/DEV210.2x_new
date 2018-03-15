@@ -80,29 +80,21 @@
 			children = (
 				7D7514A3205927C800E4710F /* ClassScope.cpp */,
 				7D7514A4205927C800E4710F /* ClassScope.hpp */,
+				7DBFE98F205988AB0061C87C /* Course.cpp */,
+				7DBFE990205988AB0061C87C /* Course.hpp */,
 				7D7514A62059280900E4710F /* Dog.cpp */,
 				7D7514A72059280900E4710F /* Dog.hpp */,
+				7DBFE992205998F80061C87C /* Lab2Instructions.cpp */,
+				7DBFE9942059B61F0061C87C /* Lab2Instructions.h */,
 				7D18AD8F2057EBFA001F279F /* main.cpp */,
 				7D9FE0302057F36700AEB721 /* Person.cpp */,
 				7D9FE02F2057F36700AEB721 /* Person.hpp */,
-				7DBFE988205988510061C87C /* Lab 2 - Classes Lab */,
-			);
-			path = DEV210.2x;
-			sourceTree = "<group>";
-		};
-		7DBFE988205988510061C87C /* Lab 2 - Classes Lab */ = {
-			isa = PBXGroup;
-			children = (
-				7DBFE9892059888E0061C87C /* Teacher.cpp */,
 				7DBFE98C205988A10061C87C /* Student.cpp */,
 				7DBFE98D205988A10061C87C /* Student.hpp */,
+				7DBFE9892059888E0061C87C /* Teacher.cpp */,
 				7DBFE98A2059888E0061C87C /* Teacher.hpp */,
-				7DBFE98F205988AB0061C87C /* Course.cpp */,
-				7DBFE990205988AB0061C87C /* Course.hpp */,
-				7DBFE992205998F80061C87C /* Lab2Instructions.cpp */,
-				7DBFE9942059B61F0061C87C /* Lab2Instructions.h */,
 			);
-			path = "Lab 2 - Classes Lab";
+			path = DEV210.2x;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
