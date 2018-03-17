@@ -15,6 +15,7 @@
 
 //In order to avoid going through the whole file, I write the latest donation's digit count in the top of the file.
 //Then read that and move the cursor to the end with an offset.
+//For this to initiate properly, there must be a file named donation_total.txt {0\n}
 
 void lab3(){
 	std::string lastDonation;
