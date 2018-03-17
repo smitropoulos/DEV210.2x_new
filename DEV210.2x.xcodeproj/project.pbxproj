@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		7D18AD902057EBFA001F279F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D18AD8F2057EBFA001F279F /* main.cpp */; };
+		7D2B26A0205BBF5700166000 /* Streams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2B269E205BBF5700166000 /* Streams.cpp */; };
+		7D2B26A3205D189E00166000 /* StringStreams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2B26A1205D189E00166000 /* StringStreams.cpp */; };
+		7D2B26A6205D1EE900166000 /* Donation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2B26A4205D1EE900166000 /* Donation.cpp */; };
+		7D2B26A9205D574E00166000 /* Lab3 - Donations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2B26A7205D574E00166000 /* Lab3 - Donations.cpp */; };
 		7D7514A5205927C800E4710F /* ClassScope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D7514A3205927C800E4710F /* ClassScope.cpp */; };
 		7D7514A82059280900E4710F /* Dog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D7514A62059280900E4710F /* Dog.cpp */; };
 		7D9FE0312057F36700AEB721 /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D9FE0302057F36700AEB721 /* Person.cpp */; };
@@ -32,6 +36,14 @@
 /* Begin PBXFileReference section */
 		7D18AD8C2057EBFA001F279F /* DEV210.2x */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DEV210.2x; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D18AD8F2057EBFA001F279F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7D2B269E205BBF5700166000 /* Streams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Streams.cpp; sourceTree = "<group>"; };
+		7D2B269F205BBF5700166000 /* Streams.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Streams.hpp; sourceTree = "<group>"; };
+		7D2B26A1205D189E00166000 /* StringStreams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StringStreams.cpp; sourceTree = "<group>"; };
+		7D2B26A2205D189E00166000 /* StringStreams.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StringStreams.hpp; sourceTree = "<group>"; };
+		7D2B26A4205D1EE900166000 /* Donation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Donation.cpp; sourceTree = "<group>"; };
+		7D2B26A5205D1EE900166000 /* Donation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Donation.hpp; sourceTree = "<group>"; };
+		7D2B26A7205D574E00166000 /* Lab3 - Donations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Lab3 - Donations.cpp"; sourceTree = "<group>"; };
+		7D2B26A8205D574E00166000 /* Lab3 - Donations.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Lab3 - Donations.hpp"; sourceTree = "<group>"; };
 		7D7514A3205927C800E4710F /* ClassScope.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClassScope.cpp; sourceTree = "<group>"; };
 		7D7514A4205927C800E4710F /* ClassScope.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ClassScope.hpp; sourceTree = "<group>"; };
 		7D7514A62059280900E4710F /* Dog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dog.cpp; sourceTree = "<group>"; };
@@ -93,6 +105,14 @@
 				7DBFE98D205988A10061C87C /* Student.hpp */,
 				7DBFE9892059888E0061C87C /* Teacher.cpp */,
 				7DBFE98A2059888E0061C87C /* Teacher.hpp */,
+				7D2B269E205BBF5700166000 /* Streams.cpp */,
+				7D2B26A4205D1EE900166000 /* Donation.cpp */,
+				7D2B26A7205D574E00166000 /* Lab3 - Donations.cpp */,
+				7D2B26A8205D574E00166000 /* Lab3 - Donations.hpp */,
+				7D2B26A5205D1EE900166000 /* Donation.hpp */,
+				7D2B269F205BBF5700166000 /* Streams.hpp */,
+				7D2B26A1205D189E00166000 /* StringStreams.cpp */,
+				7D2B26A2205D189E00166000 /* StringStreams.hpp */,
 			);
 			path = DEV210.2x;
 			sourceTree = "<group>";
@@ -154,14 +174,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D2B26A6205D1EE900166000 /* Donation.cpp in Sources */,
 				7DBFE98B2059888E0061C87C /* Teacher.cpp in Sources */,
 				7D9FE0312057F36700AEB721 /* Person.cpp in Sources */,
 				7D18AD902057EBFA001F279F /* main.cpp in Sources */,
+				7D2B26A0205BBF5700166000 /* Streams.cpp in Sources */,
 				7DBFE993205998F80061C87C /* Lab2Instructions.cpp in Sources */,
 				7DBFE98E205988A10061C87C /* Student.cpp in Sources */,
+				7D2B26A3205D189E00166000 /* StringStreams.cpp in Sources */,
 				7DBFE991205988AB0061C87C /* Course.cpp in Sources */,
 				7D7514A82059280900E4710F /* Dog.cpp in Sources */,
 				7D7514A5205927C800E4710F /* ClassScope.cpp in Sources */,
+				7D2B26A9205D574E00166000 /* Lab3 - Donations.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
