@@ -12,22 +12,16 @@
 #include <stdio.h>
 #include <iostream>
 
-class donation{
+class Donation{
 public:
-	double _amount{0};
+	int _amount;
+	Donation();    //Default constructor
+	Donation (int amount);
 
-	donation(double amount):_amount(0){
-		_amount=amount;
-	};
-
-	~donation();
-
-
-	//Methods
-	void write(std::ostream & os);
-	void read(std::istream & is);
-
+	void newDonation();
 };
 
-
 #endif /* Lab3_Donations_hpp */
+
+
+

@@ -11,4 +11,8 @@
 
 #include <stdio.h>
 
+
+void lab3();
+
+
 #endif /* Lab3___Donations_hpp */

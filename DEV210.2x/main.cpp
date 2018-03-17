@@ -2,7 +2,7 @@
 #include "Teacher.hpp"
 #include <iostream>
 #include "Streams.hpp"
-#include "StringStreams.hpp"
+#include "Lab3 - Donations.hpp"
 int main(int argc, const char * argv[]) {
 
 /*
@@ -14,7 +14,7 @@ int main(int argc, const char * argv[]) {
 	teacher1.outputAge();
  */
 
-	StringStreams();
+	lab3();
 	return 0;
 }
 
