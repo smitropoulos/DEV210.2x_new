@@ -14,7 +14,7 @@
 
 using namespace std;
 
-class Person{
+class Person{		//Basic abstract class.
 
 private:
 

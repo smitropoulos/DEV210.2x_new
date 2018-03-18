@@ -17,6 +17,7 @@ Donation::Donation(){
 Donation::Donation(int amount){
 	_amount=amount;
 }
+	//New donation method takes a name and an amount from cin
 
 void Donation::newDonation(){
 
